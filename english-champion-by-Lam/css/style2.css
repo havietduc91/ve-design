@@ -1,0 +1,84 @@
+/*
+=========================Style Css By Lam Hoang ==============================
+ */
+
+.title-image {
+    font-family: UTM-Avo-Bold;
+    font-size: 18px;
+    color: #b92e2f;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.icon-image {
+    padding: 0 183px;
+    position: relative;
+}
+
+.btn-next {
+    position: absolute;
+    top: 50%;
+    right: -8px;
+}
+
+.btn-pre {
+    position: absolute;
+    top: 50%;
+    left: -8px;
+}
+
+.wrap-slide-img {
+    margin-top: 53px;
+    background: #9d0a0e;
+    position: relative;
+    padding: 20px 36px;
+}
+
+.btn-pre-2 {
+    position: absolute;
+    top: 42%;
+    left: -15px;
+}
+
+.btn-next-2 {
+    position: absolute;
+    top: 42%;
+    right: -24px;
+}
+
+.title-content p {
+    font-family: UTM-Avo-Regular;
+    font-size: 18px;
+    color: #9d0a0e;
+    border-bottom: 1px solid #9d0a0e;
+    padding-bottom: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.img-content {
+    margin-top: 13px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img-video {
+    margin-top: 25px;
+}
+
+.img-video-1 {
+    margin-top: 18px;
+}
+
+.tintuc-1 {
+    margin-top: 24px;
+}
+
+.content-tintuc {
+    padding-top: 17px;
+    font-size: 14px;
+    font-family: UTM-Avo-Regular;
+    color: #363333;
+
+}
