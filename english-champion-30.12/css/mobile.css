@@ -1,0 +1,308 @@
+@media only screen and (max-width: 1200px){
+    .header{width: 100%}
+    .body{width: 100%}
+    .carousel button{bottom: 15%;padding: 8px 50px;
+        font-size: 20px;}
+    .header-navigation li a{
+        padding: 23px 30px 21px;
+        font-size: 16px;
+    }
+    .login-logout{font-size: 16px;width: 23%;}
+    .register{margin-right: 0;}
+    .carousel-indicators{bottom: 15%;}
+    .body-slider{    width: 100%;
+        height: 100%;}
+    .carousel-inner {
+        height: 100%;
+    }
+    .organizational{height: 100px;}
+    .organizational p{font-size: 16px;}
+    .organizational p{width: 140px;
+        height: auto;}
+    .stakeholder p{font-size: 16px;}
+    .stake1{margin-right: 10%;}
+    .stake2 {
+        margin-right: 9%;
+    }
+    .stake3 {
+        margin-right: 10%;
+    }
+    .information-exam{max-width: 49%;}
+    .next-exam{max-width: 49%;}
+    .download-template{width: 49%;}
+    .search-mark{    max-width: 49%;}
+    .search-mark input{width: 50%;}
+    .search-name button{    font-size: 20px;
+        padding: 1% 6%;
+        margin-top: 0px;}
+    #w{max-width: 90%;}
+    .slidernav{width: 94%;}
+    .crsl-item{width: 19% !important;}
+    .english-library .col-md-9 .col-md-4 img{height: 300px;}
+    .library-video{width: 100%;}
+    .adv{height: 330px;}
+    #demo{width: 100%;height: 100%;}
+    .owl-prev{margin-top: -55px !important;}
+    .owl-next{margin-top: -55px !important;}
+    .footer{width: 100%;}
+    .footer-logo{margin: 35px 0 0 50px;}
+    .footer-logo img{width: 175px;height: 150px;}
+    .footer-info{margin: 50px 30px 0 30px;}
+}
+
+@media (max-width: 1050px) {
+    .ic-phone{    padding: 5px 10px 5px 20px;}
+    .english-logo{margin-left: 15px;}
+    .header-navigation{margin-left: 5px;}
+    .header-navigation li a{padding: 23px 15px 21px;}
+    .login-logout{width: 30%;}
+    .body-slider{height: 370px;}
+    .carousel-indicators {
+        bottom: 20%;
+    }
+    .carousel button{bottom: 25%;padding: 8px 30px;}
+    .organizational {
+        height: 90px;
+    }
+    .organizational img {
+        margin-top: 25px;
+        width: 140px;
+        height: auto;
+    }
+    .adv {
+        height: 315px;
+    }
+    .footer-logo {
+        margin: 35px 0 0 20px;
+    }
+    .footer-logo img {
+        width: 150px;
+        height: auto;
+    }
+    .footer-info {
+        margin: 50px 0px 0 0px;
+    }
+}
+
+@media (max-width: 990px) {
+    .ic-fb{    background: url(../image/fb-ic.png) no-repeat 10px 8px;margin-bottom: 0;    padding: 5px 30px;}
+    .ic-phone{font-size: 10px;}
+    .ic-fb{    font-size: 10px;}
+    .english-logo img{    width: 50px;
+        height: auto;}
+    .header-navigation li a{font-size: 14px;}
+    .header-content{height: 67px;}
+    .login-logout{font-size: 14px;}
+    .carousel-control.left{top: 115px;}
+    .carousel-control.right{top: 115px;}
+    .carousel button{bottom: 10%;}
+    .carousel-indicators {
+        bottom: 10%;
+    }
+    .body-slider {
+        height: auto;
+    }
+    .carousel{height: auto;position: relative;}
+    .body-slider .container{height: auto;}
+    .body-slider .container{width: 100% !important;}
+    .body{float: left;}
+    .stakeholder img{width: 80px;height: auto;}
+    .stake1 {
+        margin-right: 8%;
+    }
+    .stake2 {
+        margin-right: 8%;
+    }
+    .stake3 {
+        margin-right: 8%;
+    }
+    .search-mark p{padding-left: 60px;}
+    .search-mark input{margin-left: 60px;font-size: 12px;}
+    .search-name button{padding: 2% 5%;    font-size: 12px;}
+    .secondary-school p{    padding: 5px 15px;}
+    .secondary-school{    margin-top: 30px;}
+    .english-champion-school a{padding-top: 25px;}
+    .information-exam{min-height: 190px;height: auto;}
+    .secondary-school a{padding: 5px 30px;}
+    .english-library .col-md-9 .col-md-4 img {
+        height: 270px;
+    }
+    .library-video iframe{width: 49%;}
+    .english-library{height: auto;margin-bottom: 30px;}
+    .adv {
+        height: 280px;
+    }
+    .footer-logo img {
+        width: 90px;
+        height: auto;
+    }
+    .footer-info {
+        margin: 50px 0px 0 0px;
+        font-size: 12px;
+        width: 80%;
+    }
+    .license{margin-bottom: 20px;}
+    .owl-theme .owl-controls .owl-buttons div{margin: 25px;}
+}
+@media (max-width: 767px) {
+    .screen{display: none;}
+    .mobile{display: block;}
+    .menu-responsive{background: rgba(0, 0, 0, 0) url("../image/menu.png") no-repeat scroll 0 0;
+        display: block !important;
+        float: right;
+        height: 25px;
+        position: relative;
+        z-index: 2;
+        margin: 15px;
+        width: 25px;}
+    .header-navigation{display: none !important;}
+    .login-logout{display: none;}
+    .menu-responsive:hover{cursor: pointer;}
+    .menu-responsive-click{background:#fff none repeat scroll 0 0;
+        float: right;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        position: absolute;
+        right: -90%;
+        top: 97px;
+        width: 90%;
+        z-index: 3;}
+    .menu-responsive-click ul{list-style-type:none;}
+    .english-logo{position: relative;z-index: 2;}
+    .menu-responsive-click ul{padding: 0 10%;}
+    .menu-responsive-click ul li{border-bottom: 1px solid #ebebeb;width: 100%;float: left;}
+    .menu-responsive-click ul li:last-child{border-bottom: none;}
+    .menu-responsive-click ul li a{
+        width: 100%;
+        float: left;
+        padding: 30px 0;
+    }
+    .carousel-control.left {
+        top: 40%;
+    }
+    .carousel-control.right {
+        top: 40%;
+    }
+    .carousel-indicators {
+        bottom: 0;
+        left: 10%;
+    }
+    .item{height: auto;}
+    .carousel button{padding: 8px 25px;font-size: 14px;}
+    .organizational{height: 95px;}
+    .organizational-mobile p{padding: 10px 0;text-align: center;width: 100%;}
+    .organizational img {
+        height: auto;
+        margin-top: -10px;
+        width: 100%;
+    }
+    .stakeholder p{text-align: center;padding: 10px 0;}
+    .stakeholder{height: 95px;}
+    .stakeholder img{margin-top: 0;}
+    .stakeholder img {
+        height: 35px;
+        width: auto;
+    }
+    .stake1 {
+         margin-right: 3%;
+     }
+    .stake2 {
+        margin-right: 3%;
+    }
+    .stake3 {
+        margin-right: 3%;
+    }
+    .english-champion-school{font-size: 14px;}
+    .information-exam {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .next-exam{max-width: 100%;}
+    .secondary-school h4{font-size: 14px;}
+    .download-template{width: 100% !important;}
+    .search-mark{margin: 30px auto 0;
+        max-width: 100% !important;
+        text-align: left;}
+    .english-action{height: auto;}
+    .image-library img{width: 100%;height: 360px;}
+    .image-library a:first-child{margin-bottom: 10px;padding: 0 5px 0 0;}
+    .image-library a:nth-child(2){margin-bottom: 10px;padding: 0 0 0 5px;}
+    .image-library a:nth-child(3){padding: 0;}
+    .image-library a:nth-child(3) img{height: auto;}
+    .english-school{padding: 0 15px;}
+    .english-library{padding: 0;}
+    .video-library{margin-top: 20px;
+        padding: 0 15px;
+        float: left;}
+    .library-video iframe {
+        width: 100%;
+    }
+    .library-video {
+        height: auto;
+        padding: 0;
+    }
+    .adv {
+        height: 260px;
+    }
+    .owl-theme .owl-controls .owl-buttons div{margin: 30px;}
+    #owl-demo .item img{height: 200px;}
+    .owl-carousel {
+        margin-top: 25px;
+    }
+    .english-footer{height: 380px;}
+    .footer-info{width: 100%;}
+    .footer-logo {
+        margin: 20px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-info {
+        font-size: 12px;
+        margin: 0;
+        padding: 0 15px;
+        width: 100%;
+    }
+    .license{margin-top: 0;padding: 0 15%;margin-bottom: 0;}
+    .license p{margin-bottom: 10px;}
+}
+@media (max-width: 515px) {
+    .carousel-control.left {
+        top: 35%;
+    }
+    .carousel-control.right {
+        top: 35%;
+    }
+}
+@media (max-width: 400px) {
+    .carousel button{left: 32%;}
+    .stakeholder img {
+        height: 35px;
+        padding: 0;
+        width: 100%;
+    }
+    .english-action{padding: 0;}
+    .search-mark{padding: 0;}
+    .search-mark {
+        background: rgba(0, 0, 0, 0) url("../image/start.png") no-repeat scroll 0 center;
+    }
+    .previous{left: -15px;}
+    .crsl-item {
+        width: 18.5% !important;
+    }
+    .slidernav a {
+        display: inline-block;
+        margin-right: 2px;
+        padding: 5px 10px;
+    }
+    .video-library{padding: 0 15px;}
+    .library-video{padding: 0;}
+    .english-footer{font-size: 10px !important;}
+    .footer-info .footer-info-title h3{font-size: 12px;}
+    .field h3{font-size: 12px;}
+    .field p{font-size: 10px;}
+    .license p {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+}

@@ -47,3 +47,17 @@ $(function(){
     e.preventDefault();
   });
 });
+var flgMenu =0;
+function menu() {
+  if(flgMenu==0){
+    $('.menu-responsive-click').animate({
+      'marginRight': "+=90%" //moves right
+    });
+    flgMenu++;
+  }else if(flgMenu==1){
+    $('.menu-responsive-click').animate({
+      'marginRight': "-=90%" //moves right
+    });
+    flgMenu--;
+  }
+}
