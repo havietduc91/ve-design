@@ -1,6 +1,33 @@
 /*
 =========================Style Css By Lam Hoang ==============================
  */
+.title {
+    padding-top: 28px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.title ul {
+    list-style-type: none;
+    margin: -10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border-bottom: 1px solid #b92e2f;
+}
+
+.title li {
+    float: left;
+    margin-right: 20px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #b92e2f;
+}
 
 .title-image {
     font-family: UTM-Avo-Bold;
@@ -43,7 +70,42 @@
 .btn-next-2 {
     position: absolute;
     top: 42%;
-    right: -24px;
+    right: -12px;
+}
+
+.slide-img {
+    position: relative;
+}
+
+.btn-play {
+    position: absolute;
+    top: 34%;
+    left: 41%;
+    z-index: 2;
+}
+
+.hover-video {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 88%;
+    height: 88%;
+}
+
+.hover-video-2 {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 98%;
+    height: 85%;
+}
+
+.hover-video-img {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, .5);
+    width: 98%;
+    height: 99%;
 }
 
 .title-content p {
@@ -61,14 +123,17 @@
     margin-top: 13px;
     padding-right: 0;
     padding-left: 0;
+    position: relative;
 }
 
 .img-video {
     margin-top: 25px;
+    position: relative;
 }
 
 .img-video-1 {
     margin-top: 18px;
+    position: relative;
 }
 
 .tintuc-1 {
@@ -80,5 +145,19 @@
     font-size: 14px;
     font-family: UTM-Avo-Regular;
     color: #363333;
-
 }
+
+.watch-more {
+    font-family: UTM-Avo-Regular;
+    font-size: 14px;
+    color: #9d0a0e;
+    position: absolute;
+    right: 5%;
+    bottom: -15%;
+}
+
+.english-champion {
+    margin-top: 10px;
+    font-family: UTM-Avo-Regular;
+}
+
