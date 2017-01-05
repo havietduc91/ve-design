@@ -34,8 +34,21 @@
     font-size: 18px;
     color: #b92e2f;
     text-align: center;
-    padding: 40px 0;
+    margin-top: 0px;
 }
+.slide-img-show{
+    margin-top: 30px;
+}
+.slide-img-show .carousel{
+    margin-top: 30px;
+}
+.slide-img-show .carousel-control.right{
+    right: -25%;
+}
+.slide-img-show .carousel-control.left{
+    left: -25%;
+}
+
 
 .icon-image {
     padding: 0 183px;
@@ -89,23 +102,16 @@
     top: 0;
     background: rgba(0, 0, 0, .5);
     width: 88%;
-    height: 88%;
+    height: 83%;
 }
 
-.hover-video-2 {
-    position: absolute;
-    top: 0;
-    background: rgba(0, 0, 0, .5);
-    width: 98%;
-    height: 85%;
-}
 
 .hover-video-img {
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, .5);
-    width: 98%;
-    height: 99%;
+    width: 88%;
+    height: 97%;
 }
 
 .title-content p {
@@ -125,15 +131,24 @@
     padding-left: 0;
     position: relative;
 }
+.img-content-video{
+    margin-top: 13px;
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+}
 
 .img-video {
-    margin-top: 25px;
+    margin-top: 13px;
     position: relative;
 }
 
 .img-video-1 {
     margin-top: 18px;
     position: relative;
+}
+.img-video-libra{
+    margin-top: 13px;
 }
 
 .tintuc-1 {
@@ -159,5 +174,17 @@
 .english-champion {
     margin-top: 10px;
     font-family: UTM-Avo-Regular;
+}
+.hidden-phone{
+    margin-top: 30px;
+}
+.thumbnail{
+    border: none;
+}
+.nav > li > a{
+    padding-top: 40px;
+}
+.nav > li > a:focus, .nav > li > a:hover{
+    background: none;
 }
 
