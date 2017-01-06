@@ -1,0 +1,113 @@
+
+.phonetic-popup-wrap {
+    min-height: 300px;
+    background: white;
+    color: #666;
+}
+
+.phonetic-popup-wrap h4, .phonetic-popup-wrap p {
+    color: inherit;
+}
+
+.phonetic-popup-wrap .wrap-audio i {
+    font-size: 60px;
+}
+
+.phonetic-popup-wrap .phonetic-popup-list table {
+    width: 100%;
+}
+
+.phonetic-popup-wrap .phonetic-popup-list i {
+    font-size: 40px;
+}
+
+.phonetic-popup-wrap .phonetic-popup-list th {
+    line-height: 40px;
+    background: #ccc;
+    font-size: 1.1em;
+}
+
+.phonetic-popup-list th, .phonetic-popup-list td {
+    text-indent: 10px;
+}
+
+.phonetic-popup-list td:first-child {
+    font-weight: bold;
+}
+
+.phonetic-popup-list tr {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.dictation-timeline-ul .is-active .sentence .content-li {
+    color: #02a8f3;
+    font-weight: bold;
+}
+
+.top-nav-list > li.backpage > a {
+    display: inline-block;
+}
+
+.info-dp-right {
+    display: inline-block;
+    float: right;
+    font-style: italic;
+}
+
+.wrap-vocab-phonic-wrong {
+    width: 100%;
+    padding: 10px;
+    border-left: 5px solid #666;
+    border-radius: 5px;
+    background: #ededed;
+    margin-bottom: 10px;
+}
+
+.wrap-vocab-phonic-wrong h4 {
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+}
+
+.wrap-vocab-phonic-wrong ul {
+    text-align: left;
+}
+
+.wrap-vocab-phonic-wrong li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wrap-vocab-phonic-wrong li a {
+    padding: 5px 20px !important;
+    border-radius: 0;
+    background-color: #666;
+    border-color: #666;
+    color: white;
+}
+
+.wrap-vocab-phonic-wrong li a:hover {
+    color: #FD633A;
+    background-color: white;
+}
+
+.wrap-vocab-phonic-wrong.word-special {
+    border-color: #FD633A;
+}
+
+.wrap-vocab-phonic-wrong.word-special li a {
+    background-color: #FD633A;
+    border-color: #FD633A;
+}
+
+.wrap-vocab-phonic-wrong.word-special li a:hover {
+    background-color: white;
+}
+
+.btn-popup-phonic {
+    margin-bottom: 5px;
+    background-color: #02a8f3;
+}

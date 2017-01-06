@@ -1,0 +1,471 @@
+@media screen and (max-width: 2199px) {
+    .image-heading {
+        height: 152px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 1%;
+    }
+
+    .list-account-info {
+        display: none;
+    }
+
+    .on-mobile {
+        margin-top: 60px;
+    }
+
+    .navigation .menu {
+        position: fixed;
+        right: 0;
+        text-align: left;
+        top: 60px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .search-inner {
+        background-color: #012340;
+    }
+
+    .search-box {
+        left: 0;
+        position: fixed;
+        right: auto;
+        top: 60px;
+        width: 100%;
+        line-height: 45px;
+        bottom: auto;
+    }
+
+    .tt-dropdown-menu.dropdown-dictionary {
+        left: 0;
+        top: 45px;
+        width: 100%;
+    }
+
+    .search-box input[type="text"], .search-box input[type="text"]:focus {
+        padding: 0 35px 0 15px;
+        width: 100%;
+    }
+
+    .navigation .menu {
+        padding-top: 0;
+    }
+
+    .open-search {
+        display: inline-block;
+    }
+
+    .navigation .menu .dropdown-user-mobile {
+        display: block;
+    }
+
+    .user-icon-mb {
+        display: inline-block;
+    }
+
+    #concept-search-input {
+        line-height: 30px;
+        color: #999;
+    }
+
+    #concept-search-input:focus {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .jp-audio .jp-type-single .jp-progress, .jp-audio .jp-type-single .jp-time-holder {
+        width: 80%;
+    }
+
+    .top-nav h4 {
+        display: block;
+        width: 100%;
+    }
+
+    .size-course-top span {
+        line-height: 55px;
+    }
+
+    .top-nav h4 a {
+        display: none;
+    }
+
+    .top-nav-list {
+        display: inline-block;
+        float: right;
+    }
+
+    .title-course-top {
+        height: 59px;
+    }
+
+    .size-course-top {
+        width: 40%;
+    }
+
+    .title-course-top h4 {
+        font-size: 1.5em;
+        line-height: 59px;
+        overflow: hidden;
+        left: 0;
+    }
+
+    .title-course-top .progress-top {
+        height: 60px;
+    }
+
+    .list-item-body {
+        margin-top: 60px;
+    }
+
+    .logo-course {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .section-learn-outline .section-title, .section-learn-outline li h6, .learn-section .title-ct h3, .s-phonetics {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    .top-nav h4 .s-title-timer {
+        font-size: 1.5em;
+        height: 40px;
+        line-height: 40px;
+        right: auto;
+        left: 0;
+        z-index: 2;
+        background: #4c5765;
+        padding: 0px 5px;
+    }
+
+    .jp-audio .jp-controls {
+        width: 80px;
+    }
+
+    .jp-audio .jp-type-single .jp-progress, .jp-audio .jp-type-single .jp-time-holder {
+        width: 60%;
+    }
+
+    .jp-volume-controls {
+        right: 0px;
+    }
+
+    .s-learn-path-item .s-learn-path-avatar {
+        height: 150px;
+    }
+
+    .size-course-top span {
+        line-height: 30px;
+    }
+
+    .hocvet-popup {
+        position: fixed;
+        display: none;
+        top: 20%;
+        left: 50%;
+        max-width: 460px;
+        margin-left: -50%;
+        z-index: 9999;
+        border: 10px solid #ccc;
+    }
+
+    .hvp-ios, .hvp-android {
+        height: 20%;
+        top: 40%;
+    }
+
+    .hvp-android {
+        top: 61%;
+    }
+
+    .image-heading {
+        height: 190px;
+    }
+
+    .top-nav-list li .list-item-course {
+    }
+
+    .sub-banner p {
+        font-size: 1em;
+    }
+
+    .mc-item h4 {
+        font-size: 1.5em;
+    }
+
+    .title-course-top {
+        width: 100px;
+        height: 39px;
+        display: inline-block;
+        float: left;
+    }
+
+    .top-nav h4 {
+        line-height: 40px;
+    }
+
+    .title-course-top h4 {
+        line-height: 39px;
+    }
+
+    .title-course-top .progress-top {
+        height: 39px;
+    }
+
+    .list-item-body {
+        margin-top: 41px;
+    }
+
+    .size-course-top a, .logo-course, .top-nav-list .discussion-learn, .top-nav-list .note-learn {
+        display: none;
+    }
+
+    .section-learn-outline .section-title {
+        font-size: 0.9em;
+    }
+
+    .section-learn-outline li h6 {
+        font-size: 1em;
+    }
+
+    .learn-section .title-ct h3 {
+        padding: 5px 15px;
+        font-size: 1em;
+    }
+
+    .question_wrapper h3 {
+        font-size: 1.3em;
+        margin: 5px 0;
+    }
+
+    .qs-introduction {
+        font-size: 1em;
+    }
+
+    .wrap-checkout-question a {
+        font-size: 1.5em;
+    }
+
+    .wrap-checkout-question .btn-lg {
+        border-radius: 54px;
+        padding: 5px 40px;
+    }
+
+    .top-nav-list li .list-item-course {
+        line-height: 40px;
+        height: 40px;
+    }
+
+    .learn-section {
+        margin-top: 40px;
+    }
+
+    #blackboard-left {
+        min-height: 350px;
+        margin-bottom: 59px;
+    }
+
+    .nav-sub .blackboard-sub-nav-item {
+        margin-top: 10px;
+    }
+
+    .form-login-ex {
+        padding: 32px 20px;
+    }
+
+    .help_text_vocabset {
+        font-size: 1em;
+    }
+
+    .left-pair {
+        border-bottom: 1px dotted #ccc;
+    }
+
+    #display-summary-default {
+        display: none;
+    }
+
+    #display-summary-mobile {
+        display: block;
+    }
+
+    .recording-bottom-wrap .recoreding-bottom-button {
+        font-size: 1.7em;
+        line-height: 35px;
+        width: 35px;
+        margin-top: 5px;
+    }
+
+    .recording-bottom-wrap .recording-bottom-next {
+        width: 80%;
+        float: right;
+    }
+
+    #load-more-footer {
+        display: block;
+    }
+
+    #info-more-footer {
+        display: none;
+    }
+
+    .finish-course h3 {
+        font-size: 1.3em;
+        top: 20px;
+    }
+
+    .finish-course p {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+
+    .finish-course a {
+        font-size: 1em;
+    }
+
+    .user-vs img {
+        margin-top: 20px;
+    }
+
+    .user-avatar .avatar .preson {
+        max-width: 100%;
+        left: 50%;
+        margin-left: -50%;
+    }
+
+    .user-avatar .star {
+        font-size: 0.5em;
+        margin-top: -14px;
+    }
+
+    .view-start-fighter .title {
+        font-size: 2em;
+    }
+
+    .view-start-fighter .count-down {
+        font-size: 4em;
+    }
+
+    #blackboard-right {
+    }
+
+    .wrap-vob-left img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .s-vocabset-navi-bottom a{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .s-dnb-menu {
+        font-size: 25px;
+    }
+    .s-dnb-word {
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    
+    .size-course-top span {
+        line-height: 30px;
+    }
+
+    .top-nav h4 a {
+        display: none;
+    }
+
+    .jp-audio .jp-type-single .jp-progress, .jp-audio .jp-type-single .jp-time-holder {
+        width: 50%;
+    }
+
+    .jp-volume-controls {
+        right: 0px;
+    }
+
+    .s-learn-path-item .s-learn-path-avatar {
+        height: 120px;
+    }
+
+    .hocvet-popup {
+        max-width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .footer2 h4 {
+        font-size: 1.1em;
+    }
+
+    .footer2 h4 {
+        font-size: 1.1em;
+    }
+
+    .footer2 ul li {
+        font-size: 0.9em;
+    }
+
+    .footer2 .info-bottom-logo h4 {
+        font-size: 0.6em;
+    }
+
+    .new-course .item {
+        width: 49%;
+    }
+
+    #course-overview-user #outline {
+        max-height: 300px;
+        overflow: auto;
+    }
+
+    .dictation-timeline-ul {
+        max-height: 150px;
+    }
+
+    .finish-course h3 {
+        font-size: 1.3em;
+        top: 20px;
+    }
+
+    .finish-course p {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+
+    .finish-course a {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .title-course-top {
+        display: none;
+    }
+
+    .tt-dropdown-menu.dropdown-dictionary {
+        width: 100%;
+        left: 0px;
+        top: 45px;
+    }
+
+}
+
+#blackboard-left {
+    background-color: white;
+    margin-bottom: 0px;
+}
