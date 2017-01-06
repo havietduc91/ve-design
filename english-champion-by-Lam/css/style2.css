@@ -187,4 +187,9 @@
 .nav > li > a:focus, .nav > li > a:hover{
     background: none;
 }
-
+/*===========Slider Video=============*/
+#ninja-slider{
+    background-color: #b92e2f;
+    border: 2px solid #9d0a0e;
+    border-radius: 7px;
+}
