@@ -1,0 +1,283 @@
+
+div.separator {
+    min-height: 10px;
+    clear: both;
+}
+
+div.separator-medium {
+    min-height: 15px;
+    clear: both;
+}
+
+div.separator-high {
+    min-height: 20px;
+    clear: both;
+}
+
+div.separator-high2 {
+    min-height: 50px;
+    clear: both;
+}
+
+ul.errors {
+    color: #a94442;
+    margin-top: 3px;
+    padding: 0;
+}
+
+ul.errors li {
+    list-style: none;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+.editable, .editable:hover {
+    border-bottom: 1px dashed #0088cc;
+    text-decoration: none;
+}
+
+li.sortable-item[data-sand-template] {
+    display: none;
+}
+
+.main-content-two .wrap-sortable-item {
+    overflow: auto;
+}
+
+.modal-header .close {
+    margin-top: -10px;
+}
+
+.toast-item-wrapper p {
+    color: white;
+}
+
+.form-login-default .btn, .form-login-default .form-control {
+    border-radius: 0px;
+}
+
+.form-login-default .form-messages {
+    padding: 5px 0;
+}
+
+.no-mp {
+    margin: 0;
+    padding: 0;
+}
+
+.bgb {
+    background-color: #3eaaea;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-16 {
+    font-size: 16px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-12 {
+    font-size: 14px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pdr-10 {
+    padding-right: 10px;
+}
+
+.mg-20 {
+    margin: 20px;
+}
+
+.mg-40 {
+    margin: 40px;
+}
+
+.mg-60 {
+    margin: 60px;
+}
+
+.mgb-20 {
+    margin-bottom: 20px;
+}
+
+.mgb-40 {
+    margin-bottom: 20px;
+}
+
+.mgb-60 {
+    margin-bottom: 60px;
+}
+
+.mgb-0 {
+    margin-bottom: 0px;
+}
+
+.mgb-5 {
+    margin-bottom: 5px;
+}
+
+.mgb-10 {
+    margin-bottom: 10px;
+}
+
+.mgt-10 {
+    margin-top: 10px;
+}
+
+.mgt-20 {
+    margin-top: 20px;
+}
+
+.mgt-40 {
+    margin-top: 40px;
+}
+
+.mgt-60 {
+    margin-top: 60px;
+}
+
+.mgt-70 {
+    margin-top: 70px;
+}
+
+.mgt-5 {
+    margin-top: 5px;
+}
+
+.mgl-60 {
+    margin-left: 60px;
+}
+
+.mgl-20 {
+    margin-left: 20px;
+}
+
+.mgl-10 {
+    margin-left: 10px;
+}
+
+.mgl-5 {
+    margin-left: 5px;
+}
+
+.pager-default ul {
+    margin: 0;
+    padding: 0;
+}
+
+.pager-default ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pager-default ul li:hover a {
+
+}
+
+.pager-default ul li a {
+    padding: 5px 10px;
+    background: #ccc;
+    font-weight: 700;
+    color: #666;
+}
+
+.pager-default ul li .active, .pager-default ul li:hover a {
+    background: #00aeff;
+    color: white;
+}
+
+#captcha-input {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.scrollToTop {
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    bottom: 75px;
+    right: 40px;
+    display: none;
+    background: white;
+    color: #FC8004;
+    overflow: auto;
+    z-index: 99;
+}
+
+.overview-scroll-begin {
+    background: #FC8004;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.overview-scroll-begin:hover {
+    background: #ccc;
+    color: #FC8004;
+}
+
+.overview-scroll-top {
+    float: right;
+    background: #666;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+.overview-scroll-top i {
+    line-height: normal;
+    font-size: 18px;
+    padding: 2px 10px;
+}
+
+.overview-scroll-top:hover {
+    background: white;
+    color: #666;
+}
+
+.sctt-register {
+    display: none;
+}
+
+.zend_form .label-required
+{
+    color: red;
+}
+
+.upload-button 
+{
+    color:white;
+}

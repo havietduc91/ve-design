@@ -1,0 +1,273 @@
+@CHARSET "UTF-8";
+
+/*
+//https://rawgithub.com/ashleydw/typeahead.js-bootstrap.css/master/index.html
+*/
+.tt-dropdown-menu.dropdown-dictionary h4{
+    font-family: 'Roboto' !important;
+}
+.wrap-dictionary-quick {
+    text-align: left;
+}
+.twitter-typeahead .tt-hint.form-control {
+    display: none;
+}
+.twitter-typeahead {
+    width: 100%;
+    position: relative;
+}
+
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+    margin-bottom: 0;
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.twitter-typeahead .tt-hint {
+    color: #a1a1a1;
+    z-index: 1;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+}
+
+.twitter-typeahead .tt-query {
+    z-index: 2;
+    /* border-radius: 4px !important; */
+}
+
+.input-group-addon  .twitter-typeahead > .tt-query {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-group-appended > .twitter-typeahead > .tt-query {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.tt-dataset-concepts {
+    /*width: 48%;*/
+    /*float: left;*/
+    margin: 0px 16px;
+}
+
+.square-dict-bullet ul {
+    padding-left: 15px;
+}
+
+.wrap-dictionary-quick h4 {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+}
+
+.wrap-dictionary-quick .square-dict-bullet {
+    overflow: auto;
+}
+
+.dictionary-quick-mean {
+    margin-left: 10px;
+}
+
+.tt-dropdown-menu {
+    z-index: 1999 !important;
+}
+
+.tt-suggestions, .example-mean {
+    /*margin-left: 20px;*/
+}
+
+.detail.detail-min {
+    color: #428BCA;
+}
+
+.type-dict-min {
+    color: #BD362F;
+}
+
+.circle-dict-bullet {
+    margin-left: 4px;
+}
+
+#concept-search-input {
+    /*background-color: white;*/
+}
+
+.dropdown-dictionary {
+    position: absolute;
+    text-align: center;
+    width: 780px;
+    left: -570px;
+}
+
+.dict-name, .dict-mean {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: 60%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.dict-name {
+    width: 30%;
+    color: #337ab7;
+    text-indent: 5px;
+}
+
+.dropdown-dictionary {
+    background-color: white;
+    font-size: 14px;
+    overflow: auto;
+    min-height: 300px;
+    font-family: 'Roboto';
+}
+
+.dropdown-dictionary {
+    margin-bottom: 5px;
+    top: 50px;
+    border: 1px solid #eee;
+}
+
+.dropdown-dictionary h4.sco-title {
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 0;
+}
+
+.dropdown-dictionary h4.sco-title span {
+    float: left;
+}
+
+.dropdown-dictionary h4.sco-title a {
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.dropdown-dictionary .tt-suggestion a {
+    width: 98%;
+    margin-left: 2%;
+    display: block;
+    padding: 5px;
+    text-align: left;
+    overflow: auto;
+}
+
+.dropdown-dictionary .tt-dataset-dict .tt-suggestion a {
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-dictionary .tt-dataset-dict .tt-suggestion h4 a {
+    border: none;
+}
+
+.dropdown-dictionary .tt-suggestion a:hover {
+    background-color: #eee;
+}
+
+.dropdown-dictionary .tt-suggestion a .image {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.dropdown-dictionary .tt-suggestion a .image img {
+    max-width: 86px;
+    text-align: left;
+    display: inline-block;
+}
+
+.tt-dataset-dict .tt-suggestion a .image img {
+    max-width: 46px;
+}
+
+.tt-dataset-dict .tt-suggestion a {
+    margin-left: 0;
+}
+
+.dropdown-dictionary .tt-suggestion a h4 {
+    font-size: 1em;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    margin: 0px;
+    font-weight: 700;
+    max-width: 70%;
+    min-width: 30%;
+    float: left;
+}
+
+.dropdown-dictionary .tt-suggestion a p {
+    display: inline-block;
+    color: #999;
+    min-width: 30%;
+    max-width: 70%;
+    padding: 0;
+    margin: 0;
+    float: right;
+    font-size: 0.9em;
+}
+
+.scroll-search-form {
+    overflow-y: auto;
+}
+
+.tt-dataset-dict .tt-suggestion a h4, .tt-dataset-course .tt-suggestion a h4,
+.tt-dataset-video .tt-suggestion a h4 {
+    color: #3979B7;
+}
+
+.tt-dataset-course .tt-suggestion a h4 {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.tt-dataset-course .tt-suggestion p {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.tt-dataset-course .tt-suggestion a {
+    display: block;
+    overflow: auto;
+}
+
+.tt-dataset-course .tt-suggestion a .image,
+.tt-dataset-course .tt-suggestion a h4, 
+.tt-dataset-course .tt-suggestion a p {
+    float: left;
+}
+
+@media (max-width: 767px) {
+    .s-navbar-form-search .nav-search{
+        top: 10px;
+    }
+    .s-navbar-form-search .dropdown-dictionary {
+        position: fixed;
+        z-index: 2000;
+        left: 0;
+        top: 250px;
+        max-height: 350px;
+        overflow-y: auto;
+        width: 100%;
+    }
+}
