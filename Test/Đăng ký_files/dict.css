@@ -1,0 +1,122 @@
+/***************************************************/
+div.boxDictSource {
+    color: #A1A1A1;
+    font-size: 12px;
+    font-style: italic;
+    margin: 10px 0 15px;
+}
+
+div.name-tuloai, div.name-idioms, div.name-sentence {
+    color: #2F96B4;
+    font-size: 18px;
+}
+
+.detail-meanings {
+    font-size: 16px;
+    /*     color: #BD362F; */
+    /*     font-weight: bold; */
+}
+
+.detail-meanings-min {
+    font-size: 13px !important;
+    /*font-weight: normal;*/
+}
+
+.dict-border-bottom {
+    border-bottom: 1px solid #D5D5D5;
+    margin-top: 5px;
+}
+
+.square-dict-bullet {
+    list-style-type: square;
+    font-size: 16px;
+}
+
+.vname-dict-min {
+    font-size: 14px !important;
+}
+
+.circle-dict-bullet {
+    list-style-type: circle;
+    font-size: 15px;
+    margin-left: 24px;
+    font-style: italic;
+}
+
+.inside-dict-bullet {
+    list-style: disc outside none;
+    font-size: 16px;
+}
+
+.type-dict {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.type-dict-min {
+    font-size: 15px;
+}
+
+.ul-field-mean {
+}
+
+.name-example {
+    color: #428BCA;
+}
+
+.vname-example {
+}
+
+.idioms-detail-meanings {
+    font-size: 17px;
+    color: #BD362F;
+    font-weight: bold;
+}
+
+.ul-right-display-dict .square-dict-bullet {
+    border-bottom: 1px dotted #ccc;
+    font-size: 12px;
+    list-style: outside none none;
+    padding: 5px 0;
+}
+
+.wrap-list-dictation, .wrap-name-idioms {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-list-dictation li, .wrap-name-idioms li {
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+.wrap-list-dictation .detail-meanings {
+    display: block;
+    font-size: 14px;
+}
+
+.wrap-list-dictation li ul, .wrap-name-idioms li ul {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.wrap-list-dictation li ul li, .wrap-name-idioms li ul li {
+    font-size: 13px;
+    list-style: none;
+}
+
+.name-idioms {
+    padding: 10px 0;
+}
+
+.wrap-name-idioms .idioms-detail-meanings {
+    font-size: 14px;
+}
+
+.boxDictSource p {
+    padding: 10px;
+    font-size: 12px;
+}

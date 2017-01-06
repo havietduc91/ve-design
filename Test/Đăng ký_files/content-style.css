@@ -1,0 +1,73 @@
+.s-content-wrap {
+    font-family: 'Roboto' !important;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.s-content-wrap b, .s-content-wrap strong {
+    font-weight: bold;
+    font-family: inherit !important;
+}
+
+.s-content-wrap h1, .s-content-wrap h2, .s-content-wrap h3, .s-content-wrap h4 {
+    font-weight: 700;
+    margin: 10px 0 !important;
+    font-family: inherit !important;
+}
+
+.s-content-wrap h1 {
+    font-size: 2em !important;
+}
+
+.s-content-wrap h2 {
+    font-size: 1.5em !important;
+}
+
+.s-content-wrap h3 {
+    font-size: 1.3em !important;
+}
+
+.s-content-wrap h4 {
+    font-size: 1.1em !important;
+}
+
+.s-content-wrap p, .s-content-wrap ul, .s-content-wrap ol {
+    margin: 7px 0 !important;
+}
+
+.s-content-wrap p, .s-content-wrap ul li, .s-content-wrap ol li, .s-content-wrap a {
+    font-size: 1em !important;
+    font-family: inherit !important;
+}
+
+.s-content-wrap p {
+    text-align: justify;
+    color: inherit !important;
+}
+
+.s-content-wrap ul, .s-content-wrap ol {
+    padding-left: 20px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.s-content-wrap ul li, .s-content-wrap ol li {
+    text-indent: 10px;
+}
+
+.s-content-wrap ul li {
+    list-style-type: disc;
+}
+
+.s-content-wrap ol li {
+    list-style-type: decimal;
+}
+
+.s-content-wrap .s-content-audio {
+    margin-bottom: 10px;
+}
+
+.s-content-wrap ul, .s-content-wrap ol, .s-content-wrap span, .s-content-wrap a, .s-content-wrap li, .s-content-wrap p {
+    font-family: inherit !important;
+}

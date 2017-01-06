@@ -1,0 +1,35 @@
+.sand-sortable > div,
+#question-bank-list > div {
+    /*	background: #fff; */
+}
+
+.sand-sortable li.sortable-item:hover,
+#question-bank-list > div:hover {
+    cursor: move;
+}
+
+/*
+.sand-sortable li:hover a, 
+{
+	color: #000;
+}
+
+*/
+.question-content li, .sand-sortable li {
+    list-style: none;
+    margin: 5px 0;
+    background: white;
+}
+
+.sand-sortable li .wrap-sortable-item, .question-content li .wrap-sortable-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.sand-sortable li:hover > .wrap-sortable-item, .question-content li:hover > .wrap-sortable-item {
+    border: 1px solid #337AB7;
+}
+
+.wrap-sortable-item > a {
+    color: inherit;
+}
