@@ -468,8 +468,8 @@ a:hover {
 
 /*.english-library .col-md-9 .col-md-4:nth-child(2){margin: 0 18px;}*/
 .library-video {
-    width: 280px;
-
+    width:280px;
+    height: 170px;
     padding: 0;
 }
 
