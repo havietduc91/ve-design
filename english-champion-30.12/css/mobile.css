@@ -232,7 +232,8 @@
         width: 98%;
         margin: 25px 1%;
     }
-
+    /*img*/
+    .image-content{width: 100%;}
 }
 
 @media (max-width: 1050px) {
@@ -308,8 +309,6 @@
         width: 220px;
         height: auto;
     }
-
-
     .thumbnail img {
         width: 230px;
         height: 200px;
@@ -1028,6 +1027,11 @@
     .pos-sub:nth-child(2n) {
         margin-left: 0;
     }
+    /*img*/
+    .paging-number ul {
+        width: 70%;
+    }
+    a.w3-display-right{right: 0;}
 }
 
 @media (max-width: 400px) {
