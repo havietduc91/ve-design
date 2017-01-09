@@ -1555,3 +1555,211 @@ ul.equest-position li.active a:hover {
     border: none;
     border-bottom: 5px solid #b92e2f;
 }
+
+/*
+=========================Style Css By Lam Hoang ==============================
+ */
+.title {
+    padding-top: 28px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.title ul {
+    list-style-type: none;
+    margin: -10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    border-bottom: 1px solid #b92e2f;
+}
+
+.title li {
+    float: left;
+    margin-right: 20px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #b92e2f;
+}
+
+.title-image {
+    font-family: UTM-Avo-Bold;
+    font-size: 18px;
+    color: #b92e2f;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.slide-img-show {
+    margin-top: 30px;
+}
+
+.slide-img-show .carousel {
+    margin-top: 30px;
+}
+
+.slide-img-show .carousel-control.right {
+    right: -25%;
+}
+
+.slide-img-show .carousel-control.left {
+    left: -25%;
+}
+
+.icon-image {
+    padding: 0 183px;
+    position: relative;
+}
+
+.btn-next {
+    position: absolute;
+    top: 50%;
+    right: -8px;
+}
+
+.btn-pre {
+    position: absolute;
+    top: 50%;
+    left: -8px;
+}
+
+.wrap-slide-img {
+    margin-top: 53px;
+    background: #9d0a0e;
+    position: relative;
+    padding: 20px 36px;
+}
+
+.btn-pre-2 {
+    position: absolute;
+    top: 42%;
+    left: -15px;
+}
+
+.btn-next-2 {
+    position: absolute;
+    top: 42%;
+    right: -12px;
+}
+
+.slide-img {
+    position: relative;
+}
+
+.title-content p {
+    font-family: UTM-Avo-Regular;
+    font-size: 18px;
+    color: #9d0a0e;
+    border-bottom: 1px solid #9d0a0e;
+    padding-bottom: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.img-content {
+    margin-top: 13px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.img-content img {
+    width: 95%;
+}
+
+.title-content .library-video {
+    width: 320px;
+    height: auto;
+    padding: 0;
+}
+
+.title-tintuc {
+    font-family: UTM-Avo-Regular;
+    font-size: 18px;
+    color: #9d0a0e;
+    padding-bottom: 5px;
+    float: left;
+    margin-top: 45px;
+}
+
+.library-video {
+    margin-top: 13px;
+}
+
+.tintuc-1 {
+    border-top: 1px solid #9d0a0e;
+    padding-top: 30px;
+}
+
+.tintuc-1 img {
+    width: 102%;
+}
+
+.content-tintuc {
+    padding-top: 17px;
+    font-size: 14px;
+    font-family: UTM-Avo-Regular;
+    color: #363333;
+}
+
+.watch-more {
+    font-family: UTM-Avo-Regular;
+    font-size: 14px;
+    color: #9d0a0e;
+    float: right;
+}
+
+.english-champion {
+    margin-top: 10px;
+    font-family: UTM-Avo-Regular;
+}
+
+.hidden-phone {
+    margin-top: 30px;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.nav > li > a {
+    padding-top: 40px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background: none;
+}
+
+#ninja-slider {
+    background-color: #b92e2f;
+    border: 2px solid #9d0a0e;
+    border-radius: 7px;
+}
+
+.english-title-img {
+    width: 90%;
+    margin: 30px auto;
+    height: auto;
+}
+.title-content-video p{
+    font-family: UTM-Avo-Regular;
+    font-size: 18px;
+    color: #9d0a0e;
+    border-bottom: 1px solid #9d0a0e;
+    padding-bottom: 5px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 50px;
+}
+.video-content{
+    margin-top: 13px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
